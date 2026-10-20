@@ -1,0 +1,64 @@
+@MovieCatalog_hw7_HostAddress = http://localhost:5018
+
+### 1. Отримати всі фільми
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies
+Accept: application/json
+
+###
+
+### 2. Отримати фільм за ID (є в базі)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/1
+Accept: application/json
+
+###
+
+### 3. Отримати фільм за ID (немає в базі)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/999
+Accept: application/json
+
+###
+
+### 4. Пошук за назвою (знаходить)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/byTitle/StarWars
+Accept: application/json
+
+###
+
+### 5. Пошук за назвою (не знаходить)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/byTitle/Unknown
+Accept: application/json
+
+###
+
+### 6. Пошук за жанром та рейтингом (знаходить)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/search?genre=Fantasy&minRat=4
+Accept: application/json
+
+###
+
+### 7. Пошук за жанром та рейтингом (не знаходить)
+GET {{MovieCatalog_hw7_HostAddress}}/api/movies/search?genre=Documental&minRat=4
+Accept: application/json
+
+###
+
+### 8. Додати новий фільм
+POST {{MovieCatalog_hw7_HostAddress}}/api/movies
+Content-Type: application/json
+
+{
+  "title": "Interstellar",
+  "genre": "Sci-Fi",
+  "rating": 5,
+  "year": 2014
+}
+
+###
+
+### 9. Видалити фільм за ID (є в базі)
+DELETE {{MovieCatalog_hw7_HostAddress}}/api/movies/2
+
+###
+
+### 10. Видалити фільм за ID (немає в базі)
+DELETE {{MovieCatalog_hw7_HostAddress}}/api/movies/999

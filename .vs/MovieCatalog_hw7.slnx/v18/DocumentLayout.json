@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IT-office\\projects\\Coding(asp-net)\\MovieCatalog_hw7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{12EFF6DE-B3E6-AEEB-BB5A-C2F4675385C8}|MovieCatalog_hw7\\MovieCatalog_hw7.csproj|d:\\it-office\\projects\\coding(asp-net)\\moviecatalog_hw7\\moviecatalog_hw7\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12EFF6DE-B3E6-AEEB-BB5A-C2F4675385C8}|MovieCatalog_hw7\\MovieCatalog_hw7.csproj|solutionrelative:moviecatalog_hw7\\controllers\\moviescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MoviesController.cs",
+              "DocumentMoniker": "D:\\IT-office\\projects\\Coding(asp-net)\\MovieCatalog_hw7\\MovieCatalog_hw7\\Controllers\\MoviesController.cs",
+              "RelativeDocumentMoniker": "MovieCatalog_hw7\\Controllers\\MoviesController.cs",
+              "ToolTip": "D:\\IT-office\\projects\\Coding(asp-net)\\MovieCatalog_hw7\\MovieCatalog_hw7\\Controllers\\MoviesController.cs",
+              "RelativeToolTip": "MovieCatalog_hw7\\Controllers\\MoviesController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCQAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T09:14:21.861Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
